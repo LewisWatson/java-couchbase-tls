@@ -1,0 +1,1000 @@
+         - @ConditionalOnClass did not find required class 'org.springframework.web.reactive.function.client.WebClient' (OnClassCondition)
+
+   CodecsAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.reactive.function.client.WebClient' (OnClassCondition)
+
+   CouchbaseAutoConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (spring.couchbase.connection-string) did not find property 'spring.couchbase.connection-string' (OnPropertyCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'com.couchbase.client.java.Cluster' (OnClassCondition)
+
+   CouchbaseCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.couchbase.cache.CouchbaseCacheManager' (OnClassCondition)
+
+   CouchbaseDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.couchbase.repository.CouchbaseRepository' (OnClassCondition)
+
+   CouchbaseReactiveDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.couchbase.repository.ReactiveCouchbaseRepository' (OnClassCondition)
+
+   CouchbaseReactiveRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.couchbase.repository.ReactiveCouchbaseRepository' (OnClassCondition)
+
+   CouchbaseRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.couchbase.repository.CouchbaseRepository' (OnClassCondition)
+
+   DataSourceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType' (OnClassCondition)
+
+   DataSourceInitializationConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.jdbc.datasource.init.DatabasePopulator' (OnClassCondition)
+
+   DataSourceTransactionManagerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.jdbc.core.JdbcTemplate' (OnClassCondition)
+
+   DispatcherServletAutoConfiguration.DispatcherServletConfiguration#multipartResolver:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.web.multipart.MultipartResolver; SearchStrategy: all) did not find any beans of type org.springframework.web.multipart.MultipartResolver (OnBeanCondition)
+
+   EhCacheCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'net.sf.ehcache.Cache' (OnClassCondition)
+
+   ElasticsearchDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.elasticsearch.core.ElasticsearchRestTemplate' (OnClassCondition)
+
+   ElasticsearchRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.elasticsearch.client.Client' (OnClassCondition)
+
+   ElasticsearchRestClientAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.elasticsearch.client.RestClientBuilder' (OnClassCondition)
+
+   EmbeddedLdapAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.unboundid.ldap.listener.InMemoryDirectoryServer' (OnClassCondition)
+
+   EmbeddedMongoAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.mongodb.MongoClientSettings' (OnClassCondition)
+
+   EmbeddedWebServerFactoryCustomizerAutoConfiguration.JettyWebServerFactoryCustomizerConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.eclipse.jetty.server.Server', 'org.eclipse.jetty.util.Loader', 'org.eclipse.jetty.webapp.WebAppContext' (OnClassCondition)
+
+   EmbeddedWebServerFactoryCustomizerAutoConfiguration.NettyWebServerFactoryCustomizerConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'reactor.netty.http.server.HttpServer' (OnClassCondition)
+
+   EmbeddedWebServerFactoryCustomizerAutoConfiguration.UndertowWebServerFactoryCustomizerConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'io.undertow.Undertow', 'org.xnio.SslClientAuthMode' (OnClassCondition)
+
+   ErrorWebFluxAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.reactive.config.WebFluxConfigurer' (OnClassCondition)
+
+   FlywayAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.flywaydb.core.Flyway' (OnClassCondition)
+
+   FreeMarkerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'freemarker.template.Configuration' (OnClassCondition)
+
+   GroovyTemplateAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'groovy.text.markup.MarkupTemplateEngine' (OnClassCondition)
+
+   GsonAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.google.gson.Gson' (OnClassCondition)
+
+   GsonHttpMessageConvertersConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.google.gson.Gson' (OnClassCondition)
+
+   H2ConsoleAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.h2.server.web.WebServlet' (OnClassCondition)
+
+   HazelcastAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.hazelcast.core.HazelcastInstance' (OnClassCondition)
+
+   HazelcastCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.hazelcast.core.HazelcastInstance' (OnClassCondition)
+
+   HazelcastJpaDependencyAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.hazelcast.core.HazelcastInstance' (OnClassCondition)
+
+   HibernateJpaAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'javax.persistence.EntityManager' (OnClassCondition)
+
+   HttpHandlerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.reactive.DispatcherHandler' (OnClassCondition)
+
+   HypermediaAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.hateoas.EntityModel' (OnClassCondition)
+
+   InfinispanCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.infinispan.spring.embedded.provider.SpringEmbeddedCacheManager' (OnClassCondition)
+
+   InfluxDbAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.influxdb.InfluxDB' (OnClassCondition)
+
+   IntegrationAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.integration.config.EnableIntegration' (OnClassCondition)
+
+   JCacheCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'javax.cache.Caching' (OnClassCondition)
+
+   JacksonHttpMessageConvertersConfiguration.MappingJackson2XmlHttpMessageConverterConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.fasterxml.jackson.dataformat.xml.XmlMapper' (OnClassCondition)
+
+   JdbcRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.jdbc.repository.config.AbstractJdbcConfiguration' (OnClassCondition)
+
+   JdbcTemplateAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.jdbc.core.JdbcTemplate' (OnClassCondition)
+
+   JerseyAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.glassfish.jersey.server.spring.SpringComponentProvider' (OnClassCondition)
+
+   JmsAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'javax.jms.Message' (OnClassCondition)
+
+   JmxAutoConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (spring.jmx.enabled=true) did not find property 'enabled' (OnPropertyCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.jmx.export.MBeanExporter' (OnClassCondition)
+
+   JndiConnectionFactoryAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.jms.core.JmsTemplate' (OnClassCondition)
+
+   JndiDataSourceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType' (OnClassCondition)
+
+   JooqAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.jooq.DSLContext' (OnClassCondition)
+
+   JpaRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.jpa.repository.JpaRepository' (OnClassCondition)
+
+   JsonbAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'javax.json.bind.Jsonb' (OnClassCondition)
+
+   JsonbHttpMessageConvertersConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'javax.json.bind.Jsonb' (OnClassCondition)
+
+   JtaAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'javax.transaction.Transaction' (OnClassCondition)
+
+   KafkaAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.kafka.core.KafkaTemplate' (OnClassCondition)
+
+   LdapAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.ldap.core.ContextSource' (OnClassCondition)
+
+   LdapRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.ldap.repository.LdapRepository' (OnClassCondition)
+
+   LiquibaseAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'liquibase.change.DatabaseChange' (OnClassCondition)
+
+   MailSenderAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'javax.activation.MimeType' (OnClassCondition)
+
+   MailSenderValidatorAutoConfiguration:
+      Did not match:
+         - @ConditionalOnSingleCandidate did not find required type 'org.springframework.mail.javamail.JavaMailSenderImpl' (OnBeanCondition)
+
+   MessageSourceAutoConfiguration:
+      Did not match:
+         - ResourceBundle did not find bundle with basename messages (MessageSourceAutoConfiguration.ResourceBundleCondition)
+
+   MongoAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.mongodb.client.MongoClient' (OnClassCondition)
+
+   MongoDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.mongodb.client.MongoClient' (OnClassCondition)
+
+   MongoReactiveAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.mongodb.reactivestreams.client.MongoClient' (OnClassCondition)
+
+   MongoReactiveDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.mongodb.reactivestreams.client.MongoClient' (OnClassCondition)
+
+   MongoReactiveRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.mongodb.reactivestreams.client.MongoClient' (OnClassCondition)
+
+   MongoRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.mongodb.client.MongoClient' (OnClassCondition)
+
+   MustacheAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.samskivert.mustache.Mustache' (OnClassCondition)
+
+   Neo4jAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.neo4j.driver.Driver' (OnClassCondition)
+
+   Neo4jDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.neo4j.driver.Driver' (OnClassCondition)
+
+   Neo4jReactiveDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.neo4j.driver.Driver' (OnClassCondition)
+
+   Neo4jReactiveRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.neo4j.driver.Driver' (OnClassCondition)
+
+   Neo4jRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.neo4j.driver.Driver' (OnClassCondition)
+
+   NettyAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.netty.util.NettyRuntime' (OnClassCondition)
+
+   OAuth2ClientAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+
+   OAuth2ResourceServerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.oauth2.server.resource.BearerTokenAuthenticationToken' (OnClassCondition)
+
+   PersistenceExceptionTranslationAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor' (OnClassCondition)
+
+   ProjectInfoAutoConfiguration#buildProperties:
+      Did not match:
+         - @ConditionalOnResource did not find resource '${spring.info.build.location:classpath:META-INF/build-info.properties}' (OnResourceCondition)
+
+   ProjectInfoAutoConfiguration#gitProperties:
+      Did not match:
+         - GitResource did not find git info at classpath:git.properties (ProjectInfoAutoConfiguration.GitResourceAvailableCondition)
+
+   QuartzAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.quartz.Scheduler' (OnClassCondition)
+
+   R2dbcAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.r2dbc.spi.ConnectionFactory' (OnClassCondition)
+
+   R2dbcDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.r2dbc.core.R2dbcEntityTemplate' (OnClassCondition)
+
+   R2dbcInitializationConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'io.r2dbc.spi.ConnectionFactory', 'org.springframework.r2dbc.connection.init.DatabasePopulator' (OnClassCondition)
+
+   R2dbcRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.r2dbc.spi.ConnectionFactory' (OnClassCondition)
+
+   R2dbcTransactionManagerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.r2dbc.connection.R2dbcTransactionManager' (OnClassCondition)
+
+   RSocketMessagingAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.rsocket.RSocket' (OnClassCondition)
+
+   RSocketRequesterAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.rsocket.RSocket' (OnClassCondition)
+
+   RSocketSecurityAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.rsocket.core.SecuritySocketAcceptorInterceptor' (OnClassCondition)
+
+   RSocketServerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.rsocket.core.RSocketServer' (OnClassCondition)
+
+   RSocketStrategiesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.netty.buffer.PooledByteBufAllocator' (OnClassCondition)
+
+   RabbitAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.rabbitmq.client.Channel' (OnClassCondition)
+
+   ReactiveElasticsearchRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.elasticsearch.client.reactive.ReactiveElasticsearchClient' (OnClassCondition)
+
+   ReactiveElasticsearchRestClientAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'reactor.netty.http.client.HttpClient' (OnClassCondition)
+
+   ReactiveMultipartAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.reactive.config.WebFluxConfigurer' (OnClassCondition)
+
+   ReactiveOAuth2ClientAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.config.annotation.web.reactive.EnableWebFluxSecurity' (OnClassCondition)
+
+   ReactiveOAuth2ResourceServerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.config.annotation.web.reactive.EnableWebFluxSecurity' (OnClassCondition)
+
+   ReactiveSecurityAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.config.annotation.web.reactive.EnableWebFluxSecurity' (OnClassCondition)
+
+   ReactiveUserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.authentication.ReactiveAuthenticationManager' (OnClassCondition)
+
+   ReactiveWebServerFactoryAutoConfiguration:
+      Did not match:
+         - @ConditionalOnWebApplication did not find reactive web application classes (OnWebApplicationCondition)
+
+   RedisAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.redis.core.RedisOperations' (OnClassCondition)
+
+   RedisCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.redis.connection.RedisConnectionFactory' (OnClassCondition)
+
+   RedisReactiveAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.redis.connection.ReactiveRedisConnectionFactory' (OnClassCondition)
+
+   RedisRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.redis.repository.configuration.EnableRedisRepositories' (OnClassCondition)
+
+   RepositoryRestMvcAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.rest.webmvc.config.RepositoryRestMvcConfiguration' (OnClassCondition)
+
+   Saml2RelyingPartyAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (OnClassCondition)
+
+   SecurityAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.authentication.DefaultAuthenticationEventPublisher' (OnClassCondition)
+
+   SecurityFilterAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.config.http.SessionCreationPolicy' (OnClassCondition)
+
+   SendGridAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.sendgrid.SendGrid' (OnClassCondition)
+
+   ServletWebServerFactoryAutoConfiguration#forwardedHeaderFilter:
+      Did not match:
+         - @ConditionalOnProperty (server.forward-headers-strategy=framework) did not find property 'server.forward-headers-strategy' (OnPropertyCondition)
+
+   ServletWebServerFactoryConfiguration.EmbeddedJetty:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.eclipse.jetty.server.Server', 'org.eclipse.jetty.util.Loader', 'org.eclipse.jetty.webapp.WebAppContext' (OnClassCondition)
+
+   ServletWebServerFactoryConfiguration.EmbeddedUndertow:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'io.undertow.Undertow', 'org.xnio.SslClientAuthMode' (OnClassCondition)
+
+   SessionAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.session.Session' (OnClassCondition)
+
+   SolrAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.apache.solr.client.solrj.impl.CloudSolrClient' (OnClassCondition)
+
+   SpringApplicationAdminJmxAutoConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (spring.application.admin.enabled=true) did not find property 'enabled' (OnPropertyCondition)
+
+   SpringDataWebAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.web.PageableHandlerMethodArgumentResolver' (OnClassCondition)
+
+   TaskSchedulingAutoConfiguration#taskScheduler:
+      Did not match:
+         - @ConditionalOnBean (names: org.springframework.context.annotation.internalScheduledAnnotationProcessor; SearchStrategy: all) did not find any beans named org.springframework.context.annotation.internalScheduledAnnotationProcessor (OnBeanCondition)
+
+   ThymeleafAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.thymeleaf.spring5.SpringTemplateEngine' (OnClassCondition)
+
+   TransactionAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.transaction.PlatformTransactionManager' (OnClassCondition)
+
+   UserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+
+   ValidationAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'javax.validation.executable.ExecutableValidator' (OnClassCondition)
+
+   WebClientAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.reactive.function.client.WebClient' (OnClassCondition)
+
+   WebFluxAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.reactive.config.WebFluxConfigurer' (OnClassCondition)
+
+   WebMvcAutoConfiguration#hiddenHttpMethodFilter:
+      Did not match:
+         - @ConditionalOnProperty (spring.mvc.hiddenmethod.filter.enabled) did not find property 'enabled' (OnPropertyCondition)
+
+   WebMvcAutoConfiguration.ResourceChainCustomizerConfiguration:
+      Did not match:
+         - @ConditionalOnEnabledResourceChain did not find class org.webjars.WebJarAssetLocator (OnEnabledResourceChainCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#beanNameViewResolver:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.BeanNameViewResolver; SearchStrategy: all) found beans of type 'org.springframework.web.servlet.view.BeanNameViewResolver' beanNameViewResolver (OnBeanCondition)
+
+   WebServiceTemplateAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.oxm.Marshaller' (OnClassCondition)
+
+   WebServicesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.ws.transport.http.MessageDispatcherServlet' (OnClassCondition)
+
+   WebSocketMessagingAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurer' (OnClassCondition)
+
+   WebSocketReactiveAutoConfiguration:
+      Did not match:
+         - @ConditionalOnWebApplication did not find reactive web application classes (OnWebApplicationCondition)
+
+   WebSocketServletAutoConfiguration.Jetty10WebSocketConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.eclipse.jetty.websocket.javax.server.internal.JavaxWebSocketServerContainer', 'org.eclipse.jetty.websocket.server.JettyWebSocketServerContainer' (OnClassCondition)
+
+   WebSocketServletAutoConfiguration.JettyWebSocketConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.eclipse.jetty.websocket.jsr356.server.deploy.WebSocketServerContainerInitializer' (OnClassCondition)
+
+   WebSocketServletAutoConfiguration.UndertowWebSocketConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.undertow.websockets.jsr.Bootstrap' (OnClassCondition)
+
+   XADataSourceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'javax.transaction.TransactionManager' (OnClassCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+
+    org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration
+
+    org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+
+    org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration
+
+    org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+
+
+
+2022-01-12 14:14:39.845  INFO 1 --- [           main] c.g.l.c.CouchbaseTlsExampleApplication   : Started CouchbaseTlsExampleApplication in 9.724 seconds (JVM running for 10.909)
+2022-01-12 14:14:39.855 DEBUG 1 --- [           main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2022-01-12 14:14:39.862 DEBUG 1 --- [           main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2022-01-12 14:14:39.886 DEBUG 1 --- [      cb-events] com.couchbase.request                    : [com.couchbase.request][RequestRetryScheduledEvent][500ms] Request CarrierGlobalConfigRequest retry scheduled per RetryStrategy (Reason: NODE_NOT_AVAILABLE) {"completed":false,"coreId":"0x71cf7d4a00000001","idempotent":true,"requestId":1,"requestType":"CarrierGlobalConfigRequest","retried":15,"retryReasons":["NODE_NOT_AVAILABLE"],"service":{"opaque":"0x0","target":"couchbase","type":"kv","vbucket":0},"timeoutMs":10000}
+2022-01-12 14:14:40.390 DEBUG 1 --- [      cb-events] com.couchbase.request                    : [com.couchbase.request][RequestRetryScheduledEvent][500ms] Request CarrierGlobalConfigRequest retry scheduled per RetryStrategy (Reason: NODE_NOT_AVAILABLE) {"completed":false,"coreId":"0x71cf7d4a00000001","idempotent":true,"requestId":1,"requestType":"CarrierGlobalConfigRequest","retried":16,"retryReasons":["NODE_NOT_AVAILABLE"],"service":{"opaque":"0x0","target":"couchbase","type":"kv","vbucket":0},"timeoutMs":10000}
+2022-01-12 14:14:40.892 DEBUG 1 --- [      cb-events] com.couchbase.request                    : [com.couchbase.request][RequestRetryScheduledEvent][500ms] Request CarrierGlobalConfigRequest retry scheduled per RetryStrategy (Reason: NODE_NOT_AVAILABLE) {"completed":false,"coreId":"0x71cf7d4a00000001","idempotent":true,"requestId":1,"requestType":"CarrierGlobalConfigRequest","retried":17,"retryReasons":["NODE_NOT_AVAILABLE"],"service":{"opaque":"0x0","target":"couchbase","type":"kv","vbucket":0},"timeoutMs":10000}
+2022-01-12 14:14:41.494 DEBUG 1 --- [      cb-events] com.couchbase.request                    : [com.couchbase.request][RequestRetryScheduledEvent][500ms] Request CarrierGlobalConfigRequest retry scheduled per RetryStrategy (Reason: NODE_NOT_AVAILABLE) {"completed":false,"coreId":"0x71cf7d4a00000001","idempotent":true,"requestId":1,"requestType":"CarrierGlobalConfigRequest","retried":18,"retryReasons":["NODE_NOT_AVAILABLE"],"service":{"opaque":"0x0","target":"couchbase","type":"kv","vbucket":0},"timeoutMs":10000}
+2022-01-12 14:14:41.996 DEBUG 1 --- [      cb-events] com.couchbase.request                    : [com.couchbase.request][RequestRetryScheduledEvent][500ms] Request CarrierGlobalConfigRequest retry scheduled per RetryStrategy (Reason: NODE_NOT_AVAILABLE) {"completed":false,"coreId":"0x71cf7d4a00000001","idempotent":true,"requestId":1,"requestType":"CarrierGlobalConfigRequest","retried":19,"retryReasons":["NODE_NOT_AVAILABLE"],"service":{"opaque":"0x0","target":"couchbase","type":"kv","vbucket":0},"timeoutMs":10000}
+2022-01-12 14:14:42.497 DEBUG 1 --- [      cb-events] com.couchbase.request                    : [com.couchbase.request][RequestRetryScheduledEvent][500ms] Request CarrierGlobalConfigRequest retry scheduled per RetryStrategy (Reason: NODE_NOT_AVAILABLE) {"completed":false,"coreId":"0x71cf7d4a00000001","idempotent":true,"requestId":1,"requestType":"CarrierGlobalConfigRequest","retried":20,"retryReasons":["NODE_NOT_AVAILABLE"],"service":{"opaque":"0x0","target":"couchbase","type":"kv","vbucket":0},"timeoutMs":10000}
+2022-01-12 14:14:43.002 DEBUG 1 --- [      cb-events] com.couchbase.request                    : [com.couchbase.request][RequestRetryScheduledEvent][500ms] Request CarrierGlobalConfigRequest retry scheduled per RetryStrategy (Reason: NODE_NOT_AVAILABLE) {"completed":false,"coreId":"0x71cf7d4a00000001","idempotent":true,"requestId":1,"requestType":"CarrierGlobalConfigRequest","retried":21,"retryReasons":["NODE_NOT_AVAILABLE"],"service":{"opaque":"0x0","target":"couchbase","type":"kv","vbucket":0},"timeoutMs":10000}
+2022-01-12 14:14:43.512 DEBUG 1 --- [      cb-events] com.couchbase.request                    : [com.couchbase.request][RequestRetryScheduledEvent][500ms] Request CarrierGlobalConfigRequest retry scheduled per RetryStrategy (Reason: NODE_NOT_AVAILABLE) {"completed":false,"coreId":"0x71cf7d4a00000001","idempotent":true,"requestId":1,"requestType":"CarrierGlobalConfigRequest","retried":22,"retryReasons":["NODE_NOT_AVAILABLE"],"service":{"opaque":"0x0","target":"couchbase","type":"kv","vbucket":0},"timeoutMs":10000}
+2022-01-12 14:14:44.013 DEBUG 1 --- [      cb-events] com.couchbase.request                    : [com.couchbase.request][RequestRetryScheduledEvent][500ms] Request CarrierGlobalConfigRequest retry scheduled per RetryStrategy (Reason: NODE_NOT_AVAILABLE) {"completed":false,"coreId":"0x71cf7d4a00000001","idempotent":true,"requestId":1,"requestType":"CarrierGlobalConfigRequest","retried":23,"retryReasons":["NODE_NOT_AVAILABLE"],"service":{"opaque":"0x0","target":"couchbase","type":"kv","vbucket":0},"timeoutMs":10000}
+2022-01-12 14:14:44.516 DEBUG 1 --- [      cb-events] com.couchbase.request                    : [com.couchbase.request][RequestRetryScheduledEvent][500ms] Request CarrierGlobalConfigRequest retry scheduled per RetryStrategy (Reason: NODE_NOT_AVAILABLE) {"completed":false,"coreId":"0x71cf7d4a00000001","idempotent":true,"requestId":1,"requestType":"CarrierGlobalConfigRequest","retried":24,"retryReasons":["NODE_NOT_AVAILABLE"],"service":{"opaque":"0x0","target":"couchbase","type":"kv","vbucket":0},"timeoutMs":10000}
+2022-01-12 14:14:45.017 DEBUG 1 --- [      cb-events] com.couchbase.request                    : [com.couchbase.request][RequestRetryScheduledEvent][500ms] Request CarrierGlobalConfigRequest retry scheduled per RetryStrategy (Reason: NODE_NOT_AVAILABLE) {"completed":false,"coreId":"0x71cf7d4a00000001","idempotent":true,"requestId":1,"requestType":"CarrierGlobalConfigRequest","retried":25,"retryReasons":["NODE_NOT_AVAILABLE"],"service":{"opaque":"0x0","target":"couchbase","type":"kv","vbucket":0},"timeoutMs":10000}
+2022-01-12 14:14:45.519 DEBUG 1 --- [      cb-events] com.couchbase.request                    : [com.couchbase.request][RequestRetryScheduledEvent][500ms] Request CarrierGlobalConfigRequest retry scheduled per RetryStrategy (Reason: NODE_NOT_AVAILABLE) {"completed":false,"coreId":"0x71cf7d4a00000001","idempotent":true,"requestId":1,"requestType":"CarrierGlobalConfigRequest","retried":26,"retryReasons":["NODE_NOT_AVAILABLE"],"service":{"opaque":"0x0","target":"couchbase","type":"kv","vbucket":0},"timeoutMs":10000}
+2022-01-12 14:14:46.028 DEBUG 1 --- [      cb-events] com.couchbase.request                    : [com.couchbase.request][RequestRetryScheduledEvent][500ms] Request CarrierGlobalConfigRequest retry scheduled per RetryStrategy (Reason: NODE_NOT_AVAILABLE) {"completed":false,"coreId":"0x71cf7d4a00000001","idempotent":true,"requestId":1,"requestType":"CarrierGlobalConfigRequest","retried":27,"retryReasons":["NODE_NOT_AVAILABLE"],"service":{"opaque":"0x0","target":"couchbase","type":"kv","vbucket":0},"timeoutMs":10000}
+2022-01-12 14:14:46.531 DEBUG 1 --- [      cb-events] com.couchbase.request                    : [com.couchbase.request][RequestRetryScheduledEvent][500ms] Request CarrierGlobalConfigRequest retry scheduled per RetryStrategy (Reason: NODE_NOT_AVAILABLE) {"completed":false,"coreId":"0x71cf7d4a00000001","idempotent":true,"requestId":1,"requestType":"CarrierGlobalConfigRequest","retried":28,"retryReasons":["NODE_NOT_AVAILABLE"],"service":{"opaque":"0x0","target":"couchbase","type":"kv","vbucket":0},"timeoutMs":10000}
+2022-01-12 14:14:47.136 DEBUG 1 --- [      cb-events] com.couchbase.request                    : [com.couchbase.request][RequestRetryScheduledEvent][198ms] Request CarrierGlobalConfigRequest retry scheduled per RetryStrategy (Reason: NODE_NOT_AVAILABLE) {"completed":false,"coreId":"0x71cf7d4a00000001","idempotent":true,"requestId":1,"requestType":"CarrierGlobalConfigRequest","retried":29,"retryReasons":["NODE_NOT_AVAILABLE"],"service":{"opaque":"0x0","target":"couchbase","type":"kv","vbucket":0},"timeoutMs":10000}
+2022-01-12 14:14:47.237 DEBUG 1 --- [      cb-events] com.couchbase.endpoint                   : [com.couchbase.endpoint][EndpointStateChangedEvent] Endpoint changed state from CONNECTING to DISCONNECTED {"circuitBreaker":"DISABLED","coreId":"0x71cf7d4a00000001","remote":"couchbase:11207","type":"KV"}
+2022-01-12 14:14:47.237 DEBUG 1 --- [      cb-events] com.couchbase.service                    : [com.couchbase.service][ServiceStateChangedEvent] Service changed state from CONNECTING to DISCONNECTED {"coreId":"0x71cf7d4a00000001","remote":"couchbase:11207","type":"KV"}
+2022-01-12 14:14:47.239  WARN 1 --- [      cb-events] com.couchbase.endpoint                   : [com.couchbase.endpoint][EndpointConnectionFailedEvent][10s] Connect attempt 1 failed because of TimeoutException: Did not observe any item or terminal signal within 10000ms in 'source(MonoDefer)' (and no fallback has been configured) {"circuitBreaker":"DISABLED","coreId":"0x71cf7d4a00000001","remote":"couchbase:11207","type":"KV"}
+
+java.util.concurrent.TimeoutException: Did not observe any item or terminal signal within 10000ms in 'source(MonoDefer)' (and no fallback has been configured)
+	at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:295) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.doTimeout(FluxTimeout.java:280) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxTimeout$TimeoutTimeoutSubscriber.onNext(FluxTimeout.java:419) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoDelay$MonoDelayRunnable.propagateDelay(MonoDelay.java:271) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoDelay$MonoDelayRunnable.run(MonoDelay.java:286) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+2022-01-12 14:14:47.240 DEBUG 1 --- [      cb-events] com.couchbase.endpoint                   : [com.couchbase.endpoint][EndpointStateChangedEvent] Endpoint changed state from DISCONNECTED to CONNECTING {"circuitBreaker":"DISABLED","coreId":"0x71cf7d4a00000001","remote":"couchbase:11207","type":"KV"}
+2022-01-12 14:14:47.240 DEBUG 1 --- [      cb-events] com.couchbase.service                    : [com.couchbase.service][ServiceStateChangedEvent] Service changed state from DISCONNECTED to CONNECTING {"coreId":"0x71cf7d4a00000001","remote":"couchbase:11207","type":"KV"}
+2022-01-12 14:14:47.381 DEBUG 1 --- [      cb-events] com.couchbase.config                     : [com.couchbase.config][IndividualGlobalConfigLoadFailedEvent][10s] Fetching a global config from node "couchbase" failed, but ignored on purpose. {"coreId":"0x71cf7d4a00000001"}
+
+com.couchbase.client.core.error.ConfigException: Caught exception while loading global config.
+	at com.couchbase.client.core.config.loader.GlobalLoader.lambda$load$3(GlobalLoader.java:72) ~[core-io-2.2.4.jar!/:na]
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:94) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:132) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:132) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:132) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onError(MonoIgnoreThen.java:270) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:132) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:106) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.Operators.error(Operators.java:198) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoError.subscribe(MonoError.java:53) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4400) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxDoFinally$DoFinallySubscriber.onError(FluxDoFinally.java:136) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at com.couchbase.client.core.Reactor$SilentMonoCompletionStage.lambda$subscribe$0(Reactor.java:175) ~[core-io-2.2.4.jar!/:na]
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:859) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:837) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088) ~[na:na]
+	at com.couchbase.client.core.msg.BaseRequest.cancel(BaseRequest.java:179) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.Timer.lambda$register$2(Timer.java:157) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[core-io-2.2.4.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+Caused by: com.couchbase.client.core.error.UnambiguousTimeoutException: CarrierGlobalConfigRequest, Reason: TIMEOUT {"cancelled":true,"completed":true,"coreId":"0x71cf7d4a00000001","idempotent":true,"reason":"TIMEOUT","requestId":1,"requestType":"CarrierGlobalConfigRequest","retried":29,"retryReasons":["NODE_NOT_AVAILABLE"],"service":{"opaque":"0x0","target":"couchbase","type":"kv","vbucket":0},"timeoutMs":10000}
+	at com.couchbase.client.core.msg.BaseRequest.cancel(BaseRequest.java:174) ~[core-io-2.2.4.jar!/:na]
+	... 8 common frames omitted
+
+2022-01-12 14:14:47.383 DEBUG 1 --- [      cb-events] com.couchbase.config                     : [com.couchbase.config][GlobalConfigRetriedEvent][1000us] Failed to open global config {"coreId":"0x71cf7d4a00000001"}
+
+com.couchbase.client.core.error.ConfigException: Caught exception while loading global config.
+	at com.couchbase.client.core.config.loader.GlobalLoader.lambda$load$3(GlobalLoader.java:72) ~[core-io-2.2.4.jar!/:na]
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:94) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:132) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:132) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:132) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onError(MonoIgnoreThen.java:270) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:132) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:106) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.Operators.error(Operators.java:198) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoError.subscribe(MonoError.java:53) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4400) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxDoFinally$DoFinallySubscriber.onError(FluxDoFinally.java:136) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at com.couchbase.client.core.Reactor$SilentMonoCompletionStage.lambda$subscribe$0(Reactor.java:175) ~[core-io-2.2.4.jar!/:na]
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:859) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:837) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088) ~[na:na]
+	at com.couchbase.client.core.msg.BaseRequest.cancel(BaseRequest.java:179) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.Timer.lambda$register$2(Timer.java:157) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[core-io-2.2.4.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+Caused by: com.couchbase.client.core.error.UnambiguousTimeoutException: CarrierGlobalConfigRequest, Reason: TIMEOUT {"cancelled":true,"completed":true,"coreId":"0x71cf7d4a00000001","idempotent":true,"reason":"TIMEOUT","requestId":1,"requestType":"CarrierGlobalConfigRequest","retried":29,"retryReasons":["NODE_NOT_AVAILABLE"],"service":{"opaque":"0x0","target":"couchbase","type":"kv","vbucket":0},"timeoutMs":10000}
+	at com.couchbase.client.core.msg.BaseRequest.cancel(BaseRequest.java:174) ~[core-io-2.2.4.jar!/:na]
+	... 8 common frames omitted
+
+2022-01-12 14:14:47.383 DEBUG 1 --- [      cb-events] com.couchbase.request                    : [com.couchbase.request][RequestRetryScheduledEvent] Request CarrierGlobalConfigRequest retry scheduled per RetryStrategy (Reason: NODE_NOT_AVAILABLE) {"completed":false,"coreId":"0x71cf7d4a00000001","idempotent":true,"requestId":2,"requestType":"CarrierGlobalConfigRequest","retried":3,"retryReasons":["NODE_NOT_AVAILABLE"],"service":{"opaque":"0x8","target":"couchbase","type":"kv","vbucket":0},"timeoutMs":10000}
+2022-01-12 14:14:47.383 DEBUG 1 --- [      cb-events] com.couchbase.request                    : [com.couchbase.request][RequestRetryScheduledEvent][1000us] Request CarrierGlobalConfigRequest retry scheduled per RetryStrategy (Reason: NODE_NOT_AVAILABLE) {"completed":false,"coreId":"0x71cf7d4a00000001","idempotent":true,"requestId":2,"requestType":"CarrierGlobalConfigRequest","retried":3,"retryReasons":["NODE_NOT_AVAILABLE"],"service":{"opaque":"0x8","target":"couchbase","type":"kv","vbucket":0},"timeoutMs":10000}
+2022-01-12 14:14:47.384 DEBUG 1 --- [      cb-events] com.couchbase.endpoint                   : [com.couchbase.endpoint][EndpointStateChangedEvent] Endpoint changed state from CONNECTING to DISCONNECTED {"bucket":"data","circuitBreaker":"DISABLED","coreId":"0x71cf7d4a00000001","remote":"couchbase:11207","type":"KV"}
+2022-01-12 14:14:47.384 DEBUG 1 --- [      cb-events] com.couchbase.service                    : [com.couchbase.service][ServiceStateChangedEvent] Service changed state from CONNECTING to DISCONNECTED {"bucket":"data","coreId":"0x71cf7d4a00000001","remote":"couchbase:11207","type":"KV"}
+2022-01-12 14:14:47.384 DEBUG 1 --- [      cb-events] com.couchbase.request                    : [com.couchbase.request][RequestRetryScheduledEvent][2000us] Request CarrierGlobalConfigRequest retry scheduled per RetryStrategy (Reason: NODE_NOT_AVAILABLE) {"completed":false,"coreId":"0x71cf7d4a00000001","idempotent":true,"requestId":2,"requestType":"CarrierGlobalConfigRequest","retried":3,"retryReasons":["NODE_NOT_AVAILABLE"],"service":{"opaque":"0x8","target":"couchbase","type":"kv","vbucket":0},"timeoutMs":10000}
+2022-01-12 14:14:47.390 DEBUG 1 --- [   cb-io-kv-5-1] jdk.event.security                       :  TLSHandshake: couchbase:11207, TLSv1.3, TLS_AES_256_GCM_SHA384, -102546178
+2022-01-12 14:14:47.391 DEBUG 1 --- [   cb-io-kv-5-1] c.c.c.c.d.i.n.handler.ssl.SslHandler     : [id: 0xc0ea4b63, L:/172.19.0.3:35386 - R:couchbase/172.19.0.2:11207] HANDSHAKEN: protocol:TLSv1.3 cipher suite:TLS_AES_256_GCM_SHA384
+2022-01-12 14:14:47.487 DEBUG 1 --- [      cb-events] com.couchbase.service                    : [com.couchbase.service][ServiceAddedEvent][7109us] Service added to Node {"coreId":"0x71cf7d4a00000001","remote":"couchbase:18091","type":"MANAGER"}
+2022-01-12 14:14:47.487 DEBUG 1 --- [      cb-events] com.couchbase.request                    : [com.couchbase.request][RequestRetryScheduledEvent][4000us] Request CarrierGlobalConfigRequest retry scheduled per RetryStrategy (Reason: NODE_NOT_AVAILABLE) {"completed":false,"coreId":"0x71cf7d4a00000001","idempotent":true,"lastDispatchedTo":"couchbase","requestId":2,"requestType":"CarrierGlobalConfigRequest","retried":8,"retryReasons":["ENDPOINT_NOT_AVAILABLE","NODE_NOT_AVAILABLE"],"service":{"opaque":"0x8","target":"couchbase","type":"kv","vbucket":0},"timeoutMs":10000}
+2022-01-12 14:14:47.488 DEBUG 1 --- [      cb-events] com.couchbase.service                    : [com.couchbase.service][ServiceStateChangedEvent] Service changed state from IDLE to DISCONNECTED {"coreId":"0x71cf7d4a00000001","remote":"couchbase:18091","type":"MANAGER"}
+2022-01-12 14:14:47.488 DEBUG 1 --- [      cb-events] com.couchbase.request                    : [com.couchbase.request][RequestRetryScheduledEvent][8000us] Request CarrierGlobalConfigRequest retry scheduled per RetryStrategy (Reason: NODE_NOT_AVAILABLE) {"completed":false,"coreId":"0x71cf7d4a00000001","idempotent":true,"lastDispatchedTo":"couchbase","requestId":2,"requestType":"CarrierGlobalConfigRequest","retried":8,"retryReasons":["ENDPOINT_NOT_AVAILABLE","NODE_NOT_AVAILABLE"],"service":{"opaque":"0x8","target":"couchbase","type":"kv","vbucket":0},"timeoutMs":10000}
+2022-01-12 14:14:47.488 DEBUG 1 --- [      cb-events] com.couchbase.endpoint                   : [com.couchbase.endpoint][EndpointStateChangedEvent] Endpoint changed state from DISCONNECTED to CONNECTING {"circuitBreaker":"DISABLED","coreId":"0x71cf7d4a00000001","remote":"couchbase:18091","type":"MANAGER"}
+2022-01-12 14:14:47.488 DEBUG 1 --- [      cb-events] com.couchbase.service                    : [com.couchbase.service][ServiceStateChangedEvent] Service changed state from DISCONNECTED to CONNECTING {"coreId":"0x71cf7d4a00000001","remote":"couchbase:18091","type":"MANAGER"}
+2022-01-12 14:14:47.496  WARN 1 --- [      cb-events] com.couchbase.endpoint                   : [com.couchbase.endpoint][EndpointConnectionFailedEvent][10s] Connect attempt 1 failed because of TimeoutException: Did not observe any item or terminal signal within 10000ms in 'source(MonoDefer)' (and no fallback has been configured) {"bucket":"data","circuitBreaker":"DISABLED","coreId":"0x71cf7d4a00000001","remote":"couchbase:11207","type":"KV"}
+
+java.util.concurrent.TimeoutException: Did not observe any item or terminal signal within 10000ms in 'source(MonoDefer)' (and no fallback has been configured)
+	at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:295) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.doTimeout(FluxTimeout.java:280) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxTimeout$TimeoutTimeoutSubscriber.onNext(FluxTimeout.java:419) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoDelay$MonoDelayRunnable.propagateDelay(MonoDelay.java:271) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoDelay$MonoDelayRunnable.run(MonoDelay.java:286) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+2022-01-12 14:14:47.496 DEBUG 1 --- [      cb-events] com.couchbase.request                    : [com.couchbase.request][RequestRetryScheduledEvent][16ms] Request CarrierGlobalConfigRequest retry scheduled per RetryStrategy (Reason: NODE_NOT_AVAILABLE) {"completed":false,"coreId":"0x71cf7d4a00000001","idempotent":true,"lastDispatchedTo":"couchbase","requestId":2,"requestType":"CarrierGlobalConfigRequest","retried":8,"retryReasons":["ENDPOINT_NOT_AVAILABLE","NODE_NOT_AVAILABLE"],"service":{"opaque":"0x8","target":"couchbase","type":"kv","vbucket":0},"timeoutMs":10000}
+2022-01-12 14:14:47.497 DEBUG 1 --- [      cb-events] com.couchbase.request                    : [com.couchbase.request][RequestRetryScheduledEvent][32ms] Request CarrierGlobalConfigRequest retry scheduled per RetryStrategy (Reason: NODE_NOT_AVAILABLE) {"completed":false,"coreId":"0x71cf7d4a00000001","idempotent":true,"lastDispatchedTo":"couchbase","requestId":2,"requestType":"CarrierGlobalConfigRequest","retried":8,"retryReasons":["ENDPOINT_NOT_AVAILABLE","NODE_NOT_AVAILABLE"],"service":{"opaque":"0x8","target":"couchbase","type":"kv","vbucket":0},"timeoutMs":10000}
+2022-01-12 14:14:47.497 DEBUG 1 --- [      cb-events] com.couchbase.endpoint                   : [com.couchbase.endpoint][EndpointConnectedEvent][31ms] Endpoint connected successfully (no timings) {"circuitBreaker":"DISABLED","coreId":"0x71cf7d4a00000001","local":"172.19.0.3:60212","remote":"couchbase:18091","type":"MANAGER"}
+2022-01-12 14:14:47.497 DEBUG 1 --- [      cb-events] com.couchbase.endpoint                   : [com.couchbase.endpoint][EndpointStateChangedEvent] Endpoint changed state from CONNECTING to CONNECTED {"circuitBreaker":"DISABLED","coreId":"0x71cf7d4a00000001","local":"172.19.0.3:60212","remote":"couchbase:18091","type":"MANAGER"}
+2022-01-12 14:14:47.497 DEBUG 1 --- [      cb-events] com.couchbase.service                    : [com.couchbase.service][ServiceStateChangedEvent] Service changed state from CONNECTING to CONNECTED {"coreId":"0x71cf7d4a00000001","remote":"couchbase:18091","type":"MANAGER"}
+2022-01-12 14:14:47.497 DEBUG 1 --- [      cb-events] com.couchbase.endpoint                   : [com.couchbase.endpoint][EndpointStateChangedEvent] Endpoint changed state from DISCONNECTED to CONNECTING {"bucket":"data","circuitBreaker":"DISABLED","coreId":"0x71cf7d4a00000001","remote":"couchbase:11207","type":"KV"}
+2022-01-12 14:14:47.497 DEBUG 1 --- [      cb-events] com.couchbase.service                    : [com.couchbase.service][ServiceStateChangedEvent] Service changed state from DISCONNECTED to CONNECTING {"bucket":"data","coreId":"0x71cf7d4a00000001","remote":"couchbase:11207","type":"KV"}
+2022-01-12 14:14:47.497 DEBUG 1 --- [      cb-events] com.couchbase.node                       : [com.couchbase.node][NodeStateChangedEvent] Node changed state from CONNECTING to DEGRADED {"coreId":"0x71cf7d4a00000001","managerPort":"8091","remote":"couchbase"}
+2022-01-12 14:14:47.497 DEBUG 1 --- [      cb-events] com.couchbase.request                    : [com.couchbase.request][RequestRetryScheduledEvent][64ms] Request CarrierGlobalConfigRequest retry scheduled per RetryStrategy (Reason: ENDPOINT_NOT_AVAILABLE) {"completed":false,"coreId":"0x71cf7d4a00000001","idempotent":true,"lastDispatchedTo":"couchbase","requestId":2,"requestType":"CarrierGlobalConfigRequest","retried":8,"retryReasons":["ENDPOINT_NOT_AVAILABLE","NODE_NOT_AVAILABLE"],"service":{"opaque":"0x8","target":"couchbase","type":"kv","vbucket":0},"timeoutMs":10000}
+2022-01-12 14:14:47.535 DEBUG 1 --- [   cb-io-kv-5-2] jdk.event.security                       :  TLSHandshake: couchbase:11207, TLSv1.3, TLS_AES_256_GCM_SHA384, -102546178
+2022-01-12 14:14:47.544 DEBUG 1 --- [   cb-io-kv-5-2] c.c.c.c.d.i.n.handler.ssl.SslHandler     : [id: 0xaf18470b, L:/172.19.0.3:35390 - R:couchbase/172.19.0.2:11207] HANDSHAKEN: protocol:TLSv1.3 cipher suite:TLS_AES_256_GCM_SHA384
+2022-01-12 14:14:47.587 DEBUG 1 --- [-io-manager-4-1] jdk.event.security                       :  TLSHandshake: couchbase:18091, TLSv1.2, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, -102546178
+2022-01-12 14:14:47.587 DEBUG 1 --- [-io-manager-4-1] c.c.c.c.d.i.n.handler.ssl.SslHandler     : [id: 0xd87305ed, L:/172.19.0.3:60212 - R:couchbase/172.19.0.2:18091] HANDSHAKEN: protocol:TLSv1.2 cipher suite:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+2022-01-12 14:14:47.598 DEBUG 1 --- [      cb-events] com.couchbase.request                    : [com.couchbase.request][RequestRetryScheduledEvent][128ms] Request CarrierGlobalConfigRequest retry scheduled per RetryStrategy (Reason: ENDPOINT_NOT_AVAILABLE) {"completed":false,"coreId":"0x71cf7d4a00000001","idempotent":true,"lastDispatchedTo":"couchbase","requestId":2,"requestType":"CarrierGlobalConfigRequest","retried":9,"retryReasons":["ENDPOINT_NOT_AVAILABLE","NODE_NOT_AVAILABLE"],"service":{"opaque":"0x8","target":"couchbase","type":"kv","vbucket":0},"timeoutMs":10000}
+2022-01-12 14:14:47.600 DEBUG 1 --- [      cb-events] com.couchbase.config                     : [com.couchbase.config][BucketOpenRetriedEvent][1000us] Failed to open bucket ["data"] {"coreId":"0x71cf7d4a00000001"}
+
+com.couchbase.client.core.error.ConfigException: Received error status from ClusterManagerBucketLoader: BucketConfigResponse{config=[], status=NO_ACCESS}
+	at com.couchbase.client.core.config.loader.ClusterManagerBucketLoader.lambda$discoverConfig$1(ClusterManagerBucketLoader.java:78) ~[core-io-2.2.4.jar!/:na]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:106) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxDoFinally$DoFinallySubscriber.onNext(FluxDoFinally.java:130) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1816) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at com.couchbase.client.core.Reactor$SilentMonoCompletionStage.lambda$subscribe$0(Reactor.java:178) ~[core-io-2.2.4.jar!/:na]
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:859) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:837) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2073) ~[na:na]
+	at com.couchbase.client.core.msg.BaseRequest.succeed(BaseRequest.java:154) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.io.netty.manager.ManagerMessageHandler.channelRead(ManagerMessageHandler.java:186) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1372) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1235) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1284) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:507) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:446) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:276) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:795) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:480) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:378) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.deps.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[core-io-2.2.4.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+2022-01-12 14:14:47.701 DEBUG 1 --- [      cb-events] com.couchbase.request                    : [com.couchbase.request][RequestRetryScheduledEvent][256ms] Request CarrierGlobalConfigRequest retry scheduled per RetryStrategy (Reason: ENDPOINT_NOT_AVAILABLE) {"completed":false,"coreId":"0x71cf7d4a00000001","idempotent":true,"lastDispatchedTo":"couchbase","requestId":2,"requestType":"CarrierGlobalConfigRequest","retried":10,"retryReasons":["ENDPOINT_NOT_AVAILABLE","NODE_NOT_AVAILABLE"],"service":{"opaque":"0x8","target":"couchbase","type":"kv","vbucket":0},"timeoutMs":10000}
+2022-01-12 14:14:48.003 DEBUG 1 --- [      cb-events] com.couchbase.request                    : [com.couchbase.request][RequestRetryScheduledEvent][512ms] Request CarrierGlobalConfigRequest retry scheduled per RetryStrategy (Reason: ENDPOINT_NOT_AVAILABLE) {"completed":false,"coreId":"0x71cf7d4a00000001","idempotent":true,"lastDispatchedTo":"couchbase","requestId":2,"requestType":"CarrierGlobalConfigRequest","retried":11,"retryReasons":["ENDPOINT_NOT_AVAILABLE","NODE_NOT_AVAILABLE"],"service":{"opaque":"0x8","target":"couchbase","type":"kv","vbucket":0},"timeoutMs":10000}
+2022-01-12 14:14:48.510 DEBUG 1 --- [      cb-events] com.couchbase.request                    : [com.couchbase.request][RequestRetryScheduledEvent][500ms] Request CarrierGlobalConfigRequest retry scheduled per RetryStrategy (Reason: ENDPOINT_NOT_AVAILABLE) {"completed":false,"coreId":"0x71cf7d4a00000001","idempotent":true,"lastDispatchedTo":"couchbase","requestId":2,"requestType":"CarrierGlobalConfigRequest","retried":12,"retryReasons":["ENDPOINT_NOT_AVAILABLE","NODE_NOT_AVAILABLE"],"service":{"opaque":"0x8","target":"couchbase","type":"kv","vbucket":0},"timeoutMs":10000}
+2022-01-12 14:14:49.012 DEBUG 1 --- [      cb-events] com.couchbase.request                    : [com.couchbase.request][RequestRetryScheduledEvent][500ms] Request CarrierGlobalConfigRequest retry scheduled per RetryStrategy (Reason: ENDPOINT_NOT_AVAILABLE) {"completed":false,"coreId":"0x71cf7d4a00000001","idempotent":true,"lastDispatchedTo":"couchbase","requestId":2,"requestType":"CarrierGlobalConfigRequest","retried":13,"retryReasons":["ENDPOINT_NOT_AVAILABLE","NODE_NOT_AVAILABLE"],"service":{"opaque":"0x8","target":"couchbase","type":"kv","vbucket":0},"timeoutMs":10000}
+2022-01-12 14:14:49.519 DEBUG 1 --- [      cb-events] com.couchbase.request                    : [com.couchbase.request][RequestRetryScheduledEvent][500ms] Request CarrierGlobalConfigRequest retry scheduled per RetryStrategy (Reason: ENDPOINT_NOT_AVAILABLE) {"completed":false,"coreId":"0x71cf7d4a00000001","idempotent":true,"lastDispatchedTo":"couchbase","requestId":2,"requestType":"CarrierGlobalConfigRequest","retried":14,"retryReasons":["ENDPOINT_NOT_AVAILABLE","NODE_NOT_AVAILABLE"],"service":{"opaque":"0x8","target":"couchbase","type":"kv","vbucket":0},"timeoutMs":10000}
+2022-01-12 14:14:50.022 DEBUG 1 --- [      cb-events] com.couchbase.request                    : [com.couchbase.request][RequestRetryScheduledEvent][500ms] Request CarrierGlobalConfigRequest retry scheduled per RetryStrategy (Reason: ENDPOINT_NOT_AVAILABLE) {"completed":false,"coreId":"0x71cf7d4a00000001","idempotent":true,"lastDispatchedTo":"couchbase","requestId":2,"requestType":"CarrierGlobalConfigRequest","retried":15,"retryReasons":["ENDPOINT_NOT_AVAILABLE","NODE_NOT_AVAILABLE"],"service":{"opaque":"0x8","target":"couchbase","type":"kv","vbucket":0},"timeoutMs":10000}
+2022-01-12 14:14:50.527 DEBUG 1 --- [      cb-events] com.couchbase.request                    : [com.couchbase.request][RequestRetryScheduledEvent][500ms] Request CarrierGlobalConfigRequest retry scheduled per RetryStrategy (Reason: ENDPOINT_NOT_AVAILABLE) {"completed":false,"coreId":"0x71cf7d4a00000001","idempotent":true,"lastDispatchedTo":"couchbase","requestId":2,"requestType":"CarrierGlobalConfigRequest","retried":16,"retryReasons":["ENDPOINT_NOT_AVAILABLE","NODE_NOT_AVAILABLE"],"service":{"opaque":"0x8","target":"couchbase","type":"kv","vbucket":0},"timeoutMs":10000}
+2022-01-12 14:14:51.033 DEBUG 1 --- [      cb-events] com.couchbase.request                    : [com.couchbase.request][RequestRetryScheduledEvent][500ms] Request CarrierGlobalConfigRequest retry scheduled per RetryStrategy (Reason: ENDPOINT_NOT_AVAILABLE) {"completed":false,"coreId":"0x71cf7d4a00000001","idempotent":true,"lastDispatchedTo":"couchbase","requestId":2,"requestType":"CarrierGlobalConfigRequest","retried":17,"retryReasons":["ENDPOINT_NOT_AVAILABLE","NODE_NOT_AVAILABLE"],"service":{"opaque":"0x8","target":"couchbase","type":"kv","vbucket":0},"timeoutMs":10000}
+2022-01-12 14:14:51.087 DEBUG 1 --- [ionShutdownHook] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2022-01-12 14:14:51.088 DEBUG 1 --- [ionShutdownHook] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4c39bec8, started on Wed Jan 12 14:14:31 GMT 2022
+2022-01-12 14:14:51.092 DEBUG 1 --- [ionShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2022-01-12 14:14:51.095 DEBUG 1 --- [ionShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Bean 'webServerGracefulShutdown' completed its stop procedure
+2022-01-12 14:14:51.095 DEBUG 1 --- [ionShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483646
+2022-01-12 14:14:51.118 DEBUG 1 --- [ionShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Bean 'webServerStartStop' completed its stop procedure
+2022-01-12 14:14:51.120 DEBUG 1 --- [ionShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-12 14:14:51.134 DEBUG 1 --- [      cb-events] com.couchbase.core                       : [com.couchbase.core][ShutdownInitiatedEvent] Got instructed to shut down {"coreId":"0x71cf7d4a00000001"}
+2022-01-12 14:14:51.134 DEBUG 1 --- [      cb-events] com.couchbase.service                    : [com.couchbase.service][ServiceDisconnectInitiatedEvent] Starting to disconnect service with 1 underlying endpoints {"bucket":"data","coreId":"0x71cf7d4a00000001","remote":"couchbase:11207","type":"KV"}
+2022-01-12 14:14:51.134 DEBUG 1 --- [      cb-events] com.couchbase.endpoint                   : [com.couchbase.endpoint][EndpointStateChangedEvent] Endpoint changed state from CONNECTING to DISCONNECTING {"bucket":"data","circuitBreaker":"DISABLED","coreId":"0x71cf7d4a00000001","remote":"couchbase:11207","type":"KV"}
+2022-01-12 14:14:51.135 DEBUG 1 --- [      cb-events] com.couchbase.service                    : [com.couchbase.service][ServiceStateChangedEvent] Service changed state from CONNECTING to DISCONNECTING {"bucket":"data","coreId":"0x71cf7d4a00000001","remote":"couchbase:11207","type":"KV"}
+2022-01-12 14:14:51.135 DEBUG 1 --- [      cb-events] com.couchbase.endpoint                   : [com.couchbase.endpoint][EndpointStateChangedEvent] Endpoint changed state from DISCONNECTING to DISCONNECTED {"bucket":"data","circuitBreaker":"DISABLED","coreId":"0x71cf7d4a00000001","remote":"couchbase:11207","type":"KV"}
+2022-01-12 14:14:51.135 DEBUG 1 --- [      cb-events] com.couchbase.service                    : [com.couchbase.service][ServiceStateChangedEvent] Service changed state from DISCONNECTING to DISCONNECTED {"bucket":"data","coreId":"0x71cf7d4a00000001","remote":"couchbase:11207","type":"KV"}
+2022-01-12 14:14:51.138 DEBUG 1 --- [      cb-events] com.couchbase.core                       : [com.couchbase.core][BucketOpenFailedEvent][13s] Opening bucket ["data"] failed {"coreId":"0x71cf7d4a00000001"}
+
+com.couchbase.client.core.error.AlreadyShutdownException: null
+	at com.couchbase.client.core.config.DefaultConfigurationProvider.lambda$openBucket$2(DefaultConfigurationProvider.java:234) ~[core-io-2.2.4.jar!/:na]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.onNext(FluxFlatMap.java:386) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.EmitterProcessor.drain(EmitterProcessor.java:491) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.EmitterProcessor.tryEmitNext(EmitterProcessor.java:299) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.SinkManySerialized.tryEmitNext(SinkManySerialized.java:100) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.InternalManySink.emitNext(InternalManySink.java:27) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.onError(FluxRetryWhen.java:190) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.secondError(MonoFlatMap.java:192) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoFlatMap$FlatMapInner.onError(MonoFlatMap.java:259) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onError(MonoFlatMap.java:172) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:106) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:106) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.Operators.error(Operators.java:198) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoError.subscribe(MonoError.java:53) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4400) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:132) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:132) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:132) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onError(MonoIgnoreThen.java:270) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:132) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:106) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.Operators.error(Operators.java:198) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoError.subscribe(MonoError.java:53) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4400) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxDoFinally$DoFinallySubscriber.onError(FluxDoFinally.java:136) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at com.couchbase.client.core.Reactor$SilentMonoCompletionStage.lambda$subscribe$0(Reactor.java:175) ~[core-io-2.2.4.jar!/:na]
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:859) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenCompleteStage(CompletableFuture.java:883) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.whenComplete(CompletableFuture.java:2251) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.whenComplete(CompletableFuture.java:143) ~[na:na]
+	at com.couchbase.client.core.Reactor$SilentMonoCompletionStage.subscribe(Reactor.java:133) ~[core-io-2.2.4.jar!/:na]
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:236) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onComplete(MonoIgnoreElements.java:89) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxTakeUntil$TakeUntilPredicateSubscriber.onComplete(FluxTakeUntil.java:121) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxTakeUntil$TakeUntilPredicateSubscriber.onNext(FluxTakeUntil.java:99) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:120) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxReplay$SizeBoundReplayBuffer.replayNormal(FluxReplay.java:856) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxReplay$SizeBoundReplayBuffer.replay(FluxReplay.java:944) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.ReplayProcessor$ReplayInner.request(ReplayProcessor.java:615) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxMap$MapSubscriber.request(FluxMap.java:162) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxTakeUntil$TakeUntilPredicateSubscriber.request(FluxTakeUntil.java:141) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onSubscribe(MonoIgnoreElements.java:72) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxTakeUntil$TakeUntilPredicateSubscriber.onSubscribe(FluxTakeUntil.java:73) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onSubscribe(FluxMap.java:92) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.ReplayProcessor.subscribe(ReplayProcessor.java:329) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4400) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:255) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4400) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:106) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.Operators.error(Operators.java:198) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoError.subscribe(MonoError.java:53) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4400) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:132) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:132) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:132) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onError(MonoIgnoreThen.java:270) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onError(MonoIgnoreElements.java:84) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxTakeUntil$TakeUntilPredicateSubscriber.onError(FluxTakeUntil.java:111) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:132) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:112) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxReplay$SizeBoundReplayBuffer.replayNormal(FluxReplay.java:856) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxReplay$SizeBoundReplayBuffer.replay(FluxReplay.java:944) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.ReplayProcessor.tryEmitNext(ReplayProcessor.java:508) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.InternalManySink.emitNext(InternalManySink.java:27) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.ReplayProcessor.onNext(ReplayProcessor.java:495) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxCreate$IgnoreSink.next(FluxCreate.java:618) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxCreate$SerializedFluxSink.next(FluxCreate.java:154) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at com.couchbase.client.core.util.SingleStateful.transition(SingleStateful.java:90) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.util.CompositeStateful.transition(CompositeStateful.java:124) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.util.CompositeStateful.lambda$register$1(CompositeStateful.java:91) ~[core-io-2.2.4.jar!/:na]
+	at reactor.core.publisher.LambdaSubscriber.onNext(LambdaSubscriber.java:160) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxReplay$SizeBoundReplayBuffer.replayNormal(FluxReplay.java:856) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxReplay$SizeBoundReplayBuffer.replay(FluxReplay.java:944) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.ReplayProcessor.tryEmitNext(ReplayProcessor.java:508) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.InternalManySink.emitNext(InternalManySink.java:27) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.ReplayProcessor.onNext(ReplayProcessor.java:495) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxCreate$IgnoreSink.next(FluxCreate.java:618) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxCreate$SerializedFluxSink.next(FluxCreate.java:154) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at com.couchbase.client.core.util.SingleStateful.transition(SingleStateful.java:90) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.endpoint.BaseEndpoint.closeChannel(BaseEndpoint.java:556) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.endpoint.BaseEndpoint.disconnect(BaseEndpoint.java:484) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.service.PooledService.disconnect(PooledService.java:370) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.service.KeyValueService.disconnect(KeyValueService.java:29) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.node.Node.lambda$removeService$7(Node.java:300) ~[core-io-2.2.4.jar!/:na]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:44) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4400) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.onNext(FluxFlatMap.java:426) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxIterable$IterableSubscription.slowPath(FluxIterable.java:272) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxIterable$IterableSubscription.request(FluxIterable.java:230) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.onSubscribe(FluxFlatMap.java:371) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:165) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:87) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8469) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.onNext(FluxFlatMap.java:426) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxIterable$IterableSubscription.slowPath(FluxIterable.java:272) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxIterable$IterableSubscription.request(FluxIterable.java:230) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.onSubscribe(FluxFlatMap.java:371) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:165) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:87) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4400) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.onNext(FluxFlatMap.java:426) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxIterable$IterableSubscription.slowPath(FluxIterable.java:272) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxIterable$IterableSubscription.request(FluxIterable.java:230) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.onSubscribe(FluxFlatMap.java:371) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:165) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:87) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8469) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.Flux.subscribeWith(Flux.java:8642) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8439) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8363) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at com.couchbase.client.core.Core.reconfigureDisconnectAll(Core.java:667) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.Core.reconfigure(Core.java:618) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.Core.lambda$new$0(Core.java:237) ~[core-io-2.2.4.jar!/:na]
+	at reactor.core.publisher.LambdaSubscriber.onNext(LambdaSubscriber.java:160) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxReplay$SizeBoundReplayBuffer.replayNormal(FluxReplay.java:856) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxReplay$SizeBoundReplayBuffer.replay(FluxReplay.java:944) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.ReplayProcessor.tryEmitNext(ReplayProcessor.java:508) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.InternalManySink.emitNext(InternalManySink.java:27) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.ReplayProcessor.onNext(ReplayProcessor.java:495) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxCreate$IgnoreSink.next(FluxCreate.java:618) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxCreate$SerializedFluxSink.next(FluxCreate.java:154) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at com.couchbase.client.core.config.DefaultConfigurationProvider.pushConfig(DefaultConfigurationProvider.java:847) ~[core-io-2.2.4.jar!/:na]
+	at com.couchbase.client.core.config.DefaultConfigurationProvider.lambda$shutdown$23(DefaultConfigurationProvider.java:515) ~[core-io-2.2.4.jar!/:na]
+	at reactor.core.publisher.Mono.lambda$doOnTerminate$25(Mono.java:2857) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onComplete(MonoPeekTerminal.java:289) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:209) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:209) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.Operators.complete(Operators.java:137) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoEmpty.subscribe(MonoEmpty.java:46) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:236) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.Operators.complete(Operators.java:137) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoEmpty.subscribe(MonoEmpty.java:46) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4400) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:255) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:236) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.checkTerminated(FluxFlatMap.java:846) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.drainLoop(FluxFlatMap.java:608) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.drain(FluxFlatMap.java:588) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.onComplete(FluxFlatMap.java:465) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.Operators.complete(Operators.java:137) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:148) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:87) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8469) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:255) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4400) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:255) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4400) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:255) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.checkTerminated(FluxFlatMap.java:846) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.drainLoop(FluxFlatMap.java:608) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.drain(FluxFlatMap.java:588) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.onComplete(FluxFlatMap.java:465) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.Operators.complete(Operators.java:137) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:148) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:87) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8469) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:255) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4400) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoIgnorePublisher.subscribe(MonoIgnorePublisher.java:57) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4400) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:255) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4400) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.Mono.subscribeWith(Mono.java:4515) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at reactor.core.publisher.Mono.toFuture(Mono.java:4920) ~[reactor-core-3.4.13.jar!/:3.4.13]
+	at com.couchbase.client.java.AsyncCluster.disconnect(AsyncCluster.java:501) ~[java-client-3.2.4.jar!/:na]
+	at com.couchbase.client.java.AsyncCluster.disconnect(AsyncCluster.java:489) ~[java-client-3.2.4.jar!/:na]
+	at com.couchbase.client.java.Cluster.disconnect(Cluster.java:481) ~[java-client-3.2.4.jar!/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:318) ~[spring-beans-5.3.14.jar!/:5.3.14]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:252) ~[spring-beans-5.3.14.jar!/:5.3.14]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587) ~[spring-beans-5.3.14.jar!/:5.3.14]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559) ~[spring-beans-5.3.14.jar!/:5.3.14]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1161) ~[spring-beans-5.3.14.jar!/:5.3.14]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520) ~[spring-beans-5.3.14.jar!/:5.3.14]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1154) ~[spring-beans-5.3.14.jar!/:5.3.14]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106) ~[spring-context-5.3.14.jar!/:5.3.14]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075) ~[spring-context-5.3.14.jar!/:5.3.14]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:172) ~[spring-boot-2.6.2.jar!/:2.6.2]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021) ~[spring-context-5.3.14.jar!/:5.3.14]
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:137) ~[spring-boot-2.6.2.jar!/:2.6.2]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:106) ~[spring-boot-2.6.2.jar!/:2.6.2]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+2022-01-12 14:14:51.180 DEBUG 1 --- [      cb-events] com.couchbase.service                    : [com.couchbase.service][ServiceRemovedEvent][23ms] Service removed from Node {"bucket":"data","coreId":"0x71cf7d4a00000001","remote":"couchbase:11207","type":"KV"}
+2022-01-12 14:14:51.181 DEBUG 1 --- [      cb-events] com.couchbase.node                       : [com.couchbase.node][NodeStateChangedEvent] Node changed state from DEGRADED to CONNECTED {"coreId":"0x71cf7d4a00000001","managerPort":"8091","remote":"couchbase"}
+2022-01-12 14:14:51.181 DEBUG 1 --- [      cb-events] com.couchbase.service                    : [com.couchbase.service][ServiceDisconnectInitiatedEvent] Starting to disconnect service with 1 underlying endpoints {"coreId":"0x71cf7d4a00000001","remote":"couchbase:11207","type":"KV"}
+2022-01-12 14:14:51.181 DEBUG 1 --- [      cb-events] com.couchbase.endpoint                   : [com.couchbase.endpoint][EndpointStateChangedEvent] Endpoint changed state from CONNECTING to DISCONNECTING {"circuitBreaker":"DISABLED","coreId":"0x71cf7d4a00000001","remote":"couchbase:11207","type":"KV"}
+2022-01-12 14:14:51.181 DEBUG 1 --- [      cb-events] com.couchbase.service                    : [com.couchbase.service][ServiceStateChangedEvent] Service changed state from CONNECTING to DISCONNECTING {"coreId":"0x71cf7d4a00000001","remote":"couchbase:11207","type":"KV"}
+2022-01-12 14:14:51.181 DEBUG 1 --- [      cb-events] com.couchbase.endpoint                   : [com.couchbase.endpoint][EndpointStateChangedEvent] Endpoint changed state from DISCONNECTING to DISCONNECTED {"circuitBreaker":"DISABLED","coreId":"0x71cf7d4a00000001","remote":"couchbase:11207","type":"KV"}
+2022-01-12 14:14:51.181 DEBUG 1 --- [      cb-events] com.couchbase.service                    : [com.couchbase.service][ServiceStateChangedEvent] Service changed state from DISCONNECTING to DISCONNECTED {"coreId":"0x71cf7d4a00000001","remote":"couchbase:11207","type":"KV"}
+2022-01-12 14:14:51.181 DEBUG 1 --- [      cb-events] com.couchbase.service                    : [com.couchbase.service][ServiceRemovedEvent][409us] Service removed from Node {"coreId":"0x71cf7d4a00000001","remote":"couchbase:11207","type":"KV"}
+2022-01-12 14:14:51.181 DEBUG 1 --- [      cb-events] com.couchbase.node                       : [com.couchbase.node][NodeStateChangedEvent] Node changed state from CONNECTED to DISCONNECTED {"coreId":"0x71cf7d4a00000001","managerPort":"8091","remote":"couchbase"}
+2022-01-12 14:14:51.181 DEBUG 1 --- [      cb-events] com.couchbase.service                    : [com.couchbase.service][ServiceDisconnectInitiatedEvent] Starting to disconnect service with 1 underlying endpoints {"coreId":"0x71cf7d4a00000001","remote":"couchbase:18091","type":"MANAGER"}
+2022-01-12 14:14:51.181 DEBUG 1 --- [      cb-events] com.couchbase.endpoint                   : [com.couchbase.endpoint][EndpointStateChangedEvent] Endpoint changed state from CONNECTED to DISCONNECTING {"circuitBreaker":"DISABLED","coreId":"0x71cf7d4a00000001","local":"172.19.0.3:60212","remote":"couchbase:18091","type":"MANAGER"}
+2022-01-12 14:14:51.181 DEBUG 1 --- [      cb-events] com.couchbase.service                    : [com.couchbase.service][ServiceStateChangedEvent] Service changed state from CONNECTED to DISCONNECTING {"coreId":"0x71cf7d4a00000001","remote":"couchbase:18091","type":"MANAGER"}
+2022-01-12 14:14:51.181 DEBUG 1 --- [      cb-events] com.couchbase.service                    : [com.couchbase.service][ServiceStateChangedEvent] Service changed state from DISCONNECTING to IDLE {"coreId":"0x71cf7d4a00000001","remote":"couchbase:18091","type":"MANAGER"}
+2022-01-12 14:14:51.182 DEBUG 1 --- [      cb-events] com.couchbase.service                    : [com.couchbase.service][ServiceRemovedEvent][8456us] Service removed from Node {"coreId":"0x71cf7d4a00000001","remote":"couchbase:18091","type":"MANAGER"}
+2022-01-12 14:14:51.185  INFO 1 --- [      cb-events] com.couchbase.node                       : [com.couchbase.node][NodeDisconnectedEvent][9184us] Node disconnected {"coreId":"0x71cf7d4a00000001","managerPort":"8091","remote":"couchbase"}
+2022-01-12 14:14:51.185 DEBUG 1 --- [      cb-events] com.couchbase.core                       : [com.couchbase.core][ReconfigurationCompletedEvent][35ms] Reconfiguration attempt completed. {"coreId":"0x71cf7d4a00000001"}
+2022-01-12 14:14:51.187 DEBUG 1 --- [      cb-events] com.couchbase.core                       : [com.couchbase.core][ReconfigurationCompletedEvent][36us] Reconfiguration attempt completed. {"coreId":"0x71cf7d4a00000001"}
+2022-01-12 14:14:51.188 DEBUG 1 --- [      cb-events] com.couchbase.endpoint                   : [com.couchbase.endpoint][EndpointStateChangedEvent] Endpoint changed state from DISCONNECTING to DISCONNECTED {"circuitBreaker":"DISABLED","coreId":"0x71cf7d4a00000001","local":"172.19.0.3:60212","remote":"couchbase:18091","type":"MANAGER"}
+2022-01-12 14:14:51.190 DEBUG 1 --- [      cb-events] com.couchbase.endpoint                   : [com.couchbase.endpoint][EndpointDisconnectedEvent][10ms] Endpoint disconnected successfully {"circuitBreaker":"DISABLED","coreId":"0x71cf7d4a00000001","local":"172.19.0.3:60212","remote":"couchbase:18091","type":"MANAGER"}
+2022-01-12 14:14:51.190  INFO 1 --- [      cb-events] com.couchbase.core                       : [com.couchbase.core][ShutdownCompletedEvent][52ms] Completed shutdown and closed all open buckets {"coreId":"0x71cf7d4a00000001"}
+2022-01-12 14:14:51.209 DEBUG 1 --- [   cb-io-kv-5-2] c.c.c.c.d.i.n.buffer.PoolThreadCache     : Freed 17 thread-local buffer(s) from thread: cb-io-kv-5-2
+2022-01-12 14:14:51.209 DEBUG 1 --- [-io-manager-4-1] c.c.c.c.d.i.n.buffer.PoolThreadCache     : Freed 18 thread-local buffer(s) from thread: cb-io-manager-4-1
+2022-01-12 14:14:51.211 DEBUG 1 --- [   cb-io-kv-5-1] c.c.c.c.d.i.n.buffer.PoolThreadCache     : Freed 16 thread-local buffer(s) from thread: cb-io-kv-5-1

@@ -48,6 +48,6 @@ banner "Spinning up rest of docker compose"
 cd develop
 docker-compose up -d --build
 
-banner "Follow logs for 1 minute"
+#banner "Follow logs for 1 minute"
 
-docker-compose logs --follow &sleep 10 killall
+#docker-compose logs --follow
