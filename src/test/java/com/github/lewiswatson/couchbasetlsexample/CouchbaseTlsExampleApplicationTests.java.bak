@@ -1,0 +1,13 @@
+package com.github.lewiswatson.couchbasetlsexample;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class CouchbaseTlsExampleApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}

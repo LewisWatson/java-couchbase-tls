@@ -1,0 +1,8 @@
+language: java
+
+services:
+  - docker
+
+script:
+  - cd develop
+  - ./develop/run.sh

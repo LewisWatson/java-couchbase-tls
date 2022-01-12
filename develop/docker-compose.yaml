@@ -1,0 +1,38 @@
+version: '3.5'
+
+networks:
+  app-tier:
+    name: 'app-tier'
+    driver: bridge
+
+services:
+  couchbase:
+    container_name: couchbase
+    image: couchbase:enterprise-6.6.0
+    networks:
+      - app-tier
+    ports:
+      - '8091-8096:8091-8096'
+      - '11207-11211:11207-11211'
+    volumes:
+      - './couchbase-cert/servercertfiles/public/chain.pem:/opt/couchbase/var/lib/couchbase/inbox/chain.pem'
+      - './couchbase-cert/servercertfiles/private/pkey.key:/opt/couchbase/var/lib/couchbase/inbox/pkey.key'
+  spring-boot-app:
+    container_name: spring-boot-app
+    build: ..
+    networks:
+      - app-tier
+    ports:
+      - '8080:8080'
+      - '8003:8003'
+    depends_on:
+      - couchbase
+    environment:
+      - COUCHBASE_BOOTSTRAP-HOSTS=couchbase
+      - COUCHBASE_BUCKET_NAME=data
+      # See couchbase-cert/load-certs-to-local-server.sh
+      - COUCHBASE_TLS-KEYSTORE_LOCATION=/couchbase-cert/my.keystore
+      - COUCHBASE_TLS-KEYSTORE_PASSWORD=storepass
+      - SPRING_OUTPUT_ANSI_ENABLED=ALWAYS
+    volumes:
+      - './couchbase-cert/servercertfiles/javaclient/my.keystore:/couchbase-cert/my.keystore'
