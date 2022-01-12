@@ -37,3 +37,18 @@ out/
 .vscode/
 
 .DS_Store
+
+develop/couchbase-cert/servercertfiles/ca.key
+develop/couchbase-cert/servercertfiles/ca.pem
+develop/couchbase-cert/servercertfiles/ca.srl
+develop/couchbase-cert/servercertfiles/clientcertfiles/.srl
+develop/couchbase-cert/servercertfiles/clientcertfiles/data.csr
+develop/couchbase-cert/servercertfiles/clientcertfiles/data.key
+develop/couchbase-cert/servercertfiles/clientcertfiles/data.pem
+develop/couchbase-cert/servercertfiles/javaclient/.srl
+develop/couchbase-cert/servercertfiles/javaclient/clientcert.pem
+develop/couchbase-cert/servercertfiles/javaclient/my.csr
+develop/couchbase-cert/servercertfiles/javaclient/my.keystore
+develop/couchbase-cert/servercertfiles/private/pkey.key
+develop/couchbase-cert/servercertfiles/public/chain.pem
+develop/couchbase-cert/servercertfiles/requests/couchbase.default.svc.csr
